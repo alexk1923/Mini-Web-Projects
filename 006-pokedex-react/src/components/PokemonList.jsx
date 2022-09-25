@@ -2,7 +2,7 @@ import React from "react";
 import Pokemon from "./Pokemon";
 import { v4 as uuid } from "uuid";
 import { useEffect, useContext } from "react";
-import { SearchContext } from "./SearchContext";
+import { SearchContext } from "../contexts/SearchContext";
 
 export default function PokemonList({ pokemons }) {
 	const { showDetailed, setShowDetailed } = useContext(SearchContext);
