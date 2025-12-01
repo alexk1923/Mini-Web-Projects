@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { v4 as uuid } from "uuid";
-import { SearchContext } from "./SearchContext";
+import { SearchContext } from "../contexts/SearchContext.jsx";
 
 export default function Pokemon(props) {
 	Pokemon.propTypes = {

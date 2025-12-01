@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Search from "./Search";
+import Search from "./components/Search";
 import PokemonList from "./components/PokemonList";
 import Navigation from "./components/Navigation";
 import Pikachu from "./img/pikachu.png";
-import { SearchContext } from "./contexts/SearchContext";
+import { SearchContext } from "./contexts/SearchContext.jsx";
 
 function App() {
 	const [pokemons, setPokemons] = useState([]);

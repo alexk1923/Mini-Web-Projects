@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
-import pokeballClosed from "./img/pokeball-closed.png";
-import { SearchContext } from "./SearchContext";
+import pokeballClosed from "../img/pokeball-closed.png";
+import { SearchContext } from "../contexts/SearchContext.jsx";
 
 export default function Search() {
 	const { searchedPokemon, setSearchedPokemon } = useContext(SearchContext);
